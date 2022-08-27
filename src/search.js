@@ -23,14 +23,14 @@ const Search = ()=>
                         setFilteredBooks([]);
                     }
                     else{
-                searched.map(search=>{
+                const updating = searched.map(search=>{
                     const getShelf = books.find(searchedBook => searchedBook.id===search.id)
                     if(getShelf)
                     {
                         search.shelf = getShelf.shelf;
                     }
                     else{search.shelf = "none"}
-                    
+                    return search;
                     
                 })
                 
