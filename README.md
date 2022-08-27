@@ -1,5 +1,5 @@
 # MyReads Project
-THis is the MyReads project, i create a bookshelf app that allows us to select and categorize books we have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that i use to continually show information as we interact with the application.
+This is the "MyReads" project, a book tracking application. We create a bookshelf app that allows us to select and categorize books we have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that i use to continually show information as we interact with the application.
 
 ## TL;DR
 
