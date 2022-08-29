@@ -1,6 +1,6 @@
 import { Link,} from "react-router-dom";
 import Shelf from "./shelf";
-import {getAll} from "./BooksAPI";
+import {getAll} from "../api/BooksAPI";
 import { useState } from "react";
 import { useEffect } from "react";
 

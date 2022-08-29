@@ -1,6 +1,6 @@
 import "./App.css";
-import Search from "./search";
-import Main from "./main";
+import Search from  "./Components/search";
+import Main from "./Components/main";
 import {Routes, Route} from "react-router-dom";
 // import { useState } from "react";
 const App = () =>

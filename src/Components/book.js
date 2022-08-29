@@ -1,4 +1,4 @@
-import { update } from "./BooksAPI";
+import { update } from "../api/BooksAPI";
 const Books = ({type,updated})=>
 {
     const handleChange = (event) =>
